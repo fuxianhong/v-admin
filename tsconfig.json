@@ -13,7 +13,9 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "node",
+      "webpack-env",
+      "element-plus/global", // Element-Plus 的 Volar 支持
     ],
     "paths": {
       "@/*": [
